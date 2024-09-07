@@ -1,3 +1,11 @@
+Consider a relational database schema for a Company database below. Employee (F_name: string, L_name: string, Emp_id:integer, Bdate: date, Address:string, Gender:string,Salary: integer, Super_Emp_id: integer, D_no: integer) Department (D_name: string, D_no: integer, D_Mgr_id:integer, Mgr_start_date: date) Dept_Location (D_no: integer, D_location:string) Project (P_name: string, P_number:integer, P_location:string, D_no:integer ) Works_on (Emp_id: integer, P_no: integer, Hours: in) Dependent(Emp_id:integer,Dependent_name:string,Gender:string,Bdate:date,Relationship:String) For the above schema, perform the following
+
+a) Create the above tables by specifying primary keys and foreign keys.
+b) Insert around 10 records in each of the tables.
+c) Find the names and address of all employees who work on same department.
+d) Retrieve a list of employees and the projects they are working on, ordered by department and, within each department, ordered alphabetically by last name, then first name.
+
+
 CREATE DATABASE CompanyDB;
 
 -- Use the newly created database
