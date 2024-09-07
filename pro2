@@ -1,3 +1,19 @@
+1NT22CS143
+2.Create a relational database schema for a Project, described by the following relations. STUDENT (Rollno: integer, Name: String,
+Sem: integer, Degree: String, Contact no: integer, Guide_No: integer) GUIDE (Guide_name: String, Guide_No: integer,
+Guide_reserach_domain: String, Contact_No: integer, Email_Id: String) PROJECT (Project_No: Integer, Project_title: String,
+Project_Area: String, Start_dt, date, Guide_No: integer) GROUP (Group_Code: integer, Roll_No:integer )
+PROJECT_GROUP (Group_Code: integer, Project_No: integer, no_of_students:integer) For the above schema, perform the following.
+
+ a) Create the tables with the appropriate integrity constraints b) Insert around 10 records in each of the tables 
+c) Find the list of guide, who are guiding more than two student groups.
+ d) Find the list of project no, project name & name of guide, in domain of Data Base.
+ e) Create a view as student_project details that lists student name, project name and guide name
+
+
+
+
+
 create database studentdatabase;
 use studentdatabase;
 CREATE TABLE GUIDE (
