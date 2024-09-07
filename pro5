@@ -1,3 +1,15 @@
+5 .Consider a relational database schema for a Sailors database below Sailors (sid: integer, sname: string, rating: integer, age: real); Boats (bid: integer, bname: string, color: string); Reserves (sid: integer, bid: integer, day: date). For the above schema, perform the following. 
+
+
+a) Create the above tables by specifying primary keys and foreign keys.
+ b) Insert around 10 records in each of the tables.
+ c) Find the names of sailors who have reserved a red boat, and list in the order of age.
+ d) Find the names of sailors who have reserved boat 103
+ e) Find the name and the age of the youngest sailor. 
+f) Find the average age of sailors for each rating level that has at least two sailors.
+
+
+
 CREATE DATABASE SailingClub;
 USE SailingClub;
 
