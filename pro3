@@ -1,3 +1,20 @@
+Q.n.4)The following relations keep track of airline flight information: Flights (flno: integer, from: string, to: string, distance: integer,
+departs: time, arrives: time, price: integer) Aircraft (aid: integer, aname: string, cruisingrange: integer) Certified (eid: integer,
+aid: integer) Employees (eid: integer, ename: string, salary: integer) Note that the Employees relation describes pilots and other kinds of
+employees as well; every pilot is certified for some aircraft, and only pilots are certified to fly. For the above schema, perform the following.
+
+
+a) Create the above tables by specifying primary keys and foreign keys.
+ b) Insert around 10 records in each of the tables. 
+c) Find the names of aircraft such that all pilots certified to operate them earn more than 80,000.
+ d) For each pilot who is certified for more than three aircraft, find the eid and the maximum cruising range of the aircraft that
+he (or she) is certified for. 
+e)Find the names of pilots whose salary is less than the price of the cheapest route from Los Angeles to Honolulu. 
+f) Find the second highest salary of an employee.
+
+
+
+
 create database flightdatabase;
 use flightdatabase;
 CREATE TABLE Employees (
